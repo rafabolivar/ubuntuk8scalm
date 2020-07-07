@@ -13,3 +13,11 @@ Once deployed, open the second blueprint *(2_Ubuntu_K8s_Cloudimg.json)* and edit
 http://10.42.99.54/images/ubuntu-16.04-server-cloudimg-amd64-disk1.qcow2
 
 Modify the *Master_Node_Hostname, Worker_Nodes_Hostname* and *Domain* variables as required.
+
+The second blueprint *(2_Ubuntu_K8s_Cloudimg.json)* does the following:
+
+  - Creates a k8s Master Node
+  - Creates 3 K8s Worker Nodes
+  - Creates a Local Storage Class using local vdisks
+
+TBD: Creating a Storage Class using Nutanix CSI Driver

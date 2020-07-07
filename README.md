@@ -21,3 +21,5 @@ The second blueprint *(2_Ubuntu_K8s_Cloudimg.json)* does the following:
   - Creates a Local Storage Class using local vdisks
 
 TBD: Creating a Storage Class using Nutanix CSI Driver
+
+If you're prompted for a password, use: **nutanix/4u**

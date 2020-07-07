@@ -1,5 +1,5 @@
 # ubuntuk8scalm
-These blueprints allow to create a K8s cluster using Ubuntu Cloud Image, following [Microsoft's guidelines for SQL Server Big Data Clusters on Ubuntu] (https://github.com/microsoft/sql-server-samples/tree/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu).
+These blueprints allow to create a K8s cluster using Ubuntu Cloud Image, following [Microsoft's guidelines for SQL Server Big Data Clusters on Ubuntu](https://github.com/microsoft/sql-server-samples/tree/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu).
 
 The first one *(1-Ubuntu_Image_Server.json)* does the following:
 
